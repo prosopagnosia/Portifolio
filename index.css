@@ -1,12 +1,56 @@
+:root{
+    --corleve: #dacba5;
+    --fontnova: 'Amatic SC', cursive;
+    
+
+}
+
 *{
 
     margin: 0px;
     padding: 0px;
     border: 0px;
+    background: #F0E68C;
+  
 }
 
-main{
+section#titulo{
 
-    background-color: aquamarine;
+     font-family: var(--fontnova);
+     text-align: center;
+     font-size: 30px;
+     color: rgb(64, 119, 119);
+
+}
+
+
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: content-box;
+    width: 1069px;
+    border-bottom: 3px solid black;
+    
+
+}
+
+.container{
+    width: 1080px;
+    height: 980px;
+    border: 6px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin-left: 25%;
+    background-color: var(--corleve)
+}
+
+img{
+     border-radius: 50%;
+     height: 150px;
+     width: 170px;
+     border: 4px solid rgb(44, 55, 85);
+     
 
 }
